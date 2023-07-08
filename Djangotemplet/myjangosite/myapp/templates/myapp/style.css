@@ -1,0 +1,67 @@
+body{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+
+    position: relative;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 5px;
+}
+.topHeader{
+    font-size: 30px;
+position: relative;
+left: 10px;
+bottom: 40px;
+font-family: comic san Ms;
+}
+.formBox{
+    display: flex;
+    position: relative;
+    padding: 80px;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+}
+.formcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.inputText{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    opacity: 90%;
+    color: black;
+}
+::-webkit-input-placeholder{
+    color: rgb(23, 16, 16);
+}
+i{
+    position: relative;
+    top: -29px;
+    right: 20px;
+}
+.submitButton{
+height: 40px;
+width: 110%;
+border: none;
+outline: none;
+border-radius: 30px;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: black;
+}
